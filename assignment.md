@@ -1,4 +1,6 @@
 
+# Tableau Project Instructions
+
 In this Final Project, you have 2 options; you can choose the option of working on the pre-prepared questions that are a part of the Standard Final project (Option 1), or you can work on one of the provided five datasets and formulate your own data question and Dashboards in Tableau (Option 2). 
 
 It's up to you! 
@@ -20,21 +22,34 @@ You will be working with data from the Canadian Open Data portal. Specifically, 
 #### Tasks:
 Use Tableau to answer the following questions and deliver results using a 5-minute PowerPoint or PDF presentation. All questions should be answered using the right visualizations:
 
-- Show the trend of house prices across Canada in the last 40 years (table housing_price_index).
-- Compare the trend after 2005 with actual benchmark prices in table real_estate_prices to see if there are any differences.
-- Compare this trend with the trend of office prices. Which one is getting more expensive, faster?
-- Create a heatmap of Canada with current house prices for each available district.
-- Are the price differences between different districts increasing?
-- Compare the trend of house prices with earnings. *In case you want to plot monthly salary, be aware that the earnings value is per week.
-- Did people spend more of their earnings in 2014 than they did in 2001?
-- There were several economic crises in the world in the last 40 years, including these four: Black Monday (1987), Recession (early 1990s), dot com bubble (2000 - 2002), Financial crisis (2007 - 2009). Show the effect of these crises on:
+1. - Show the trend of house prices across Canada in the last 40 years (table housing_price_index). 
+     - **SKIP ERROR WITH DATA**
+
+2. - Compare the trend after 2005 with actual benchmark prices in table real_estate_prices to see if there are any differences.
+    - **CANT DO COMPARISON _ NO DATA**
+
+3. - Compare this trend with the trend of office prices. Which one is getting more expensive, faster?
+
+4. - Create a heatmap of Canada with current house prices for each available district.
+
+5. - Are the price differences between different districts increasing?
+
+6. - Compare the trend of house prices with earnings. *In case you want to plot monthly salary, be aware that the earnings value is per week.
+
+7. - Did people spend more of their earnings in 2014 than they did in 2001?
+
+8. - There were several economic crises in the world in the last 40 years, including these four: Black Monday (1987), Recession (early 1990s), dot com bubble (2000 - 2002), Financial crisis (2007 - 2009). Show the effect of these crises on:
   - Earnings
   - House prices
   - Office prices
-  - House constructions
+  - House constructions (normalize as index, standard scalar?, calculated column )
   - Consumer index
-- Plot consumer_index together with housing_price_index and fit the regression line between them. Can we predict consumer_index from the housing_price_index?
-- Try to find an interesting pattern, trend, outlier, etc. from the data used in the above questions.
+
+9. - Plot consumer_index together with housing_price_index and fit the regression line between them. Can we predict consumer_index from the housing_price_index?
+
+* Yes
+
+10. - Try to find an interesting pattern, trend, outlier, etc. from the data used in the above questions.
   - HINT : Double check all units in the table before any comparison.
   
   
